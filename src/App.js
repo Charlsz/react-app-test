@@ -1,5 +1,5 @@
 import React from 'react';
-import PostsList from './components/PostsList';
+import PostList from './components/PostList';
 import './App.css';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
 
       {/* Contenido principal */}
       <main className="app-main">
-        <PostsList />
+  <PostList />
       </main>
 
       {/* Footer */}
